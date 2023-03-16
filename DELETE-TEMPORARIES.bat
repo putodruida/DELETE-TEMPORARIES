@@ -36,7 +36,7 @@ CD /D "%~dp0"
 :--------------------------------------
 
 REM Delete temporaries from current user
-
+REM To use it on a standard user, modify line 40, changing %USERNAME% to the username of C:\users\
 rmdir /S /Q "C:\Users\%USERNAME%\AppData\Local\Temp"
 
 REM Delete temporaries from Windows
